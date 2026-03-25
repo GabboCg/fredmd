@@ -1,0 +1,17 @@
+# Claude Code
+CLAUDE.md
+docs/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Rcpp compiled artifacts
+src/*.o
+src/*.so
+src/*.dll
+
+# macOS
+.DS_Store
