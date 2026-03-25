@@ -1,6 +1,6 @@
 # FRED-MD Data Cleaning Pipeline
 
-R pipeline for cleaning and processing the [FRED-MD](https://research.stlouisfed.org/econ/mccracken/fred-databases/) macroeconomic database. Implements McCracken & Ng (2016, JBES) transformation codes and Bai & Ng (2002, ECTA) factor extraction via a compiled C++ (RcppArmadillo) backend.
+An R pipeline for cleaning and processing the [FRED-MD](https://research.stlouisfed.org/econ/mccracken/fred-databases/) macroeconomic database. Implements McCracken & Ng (2016, JBES) transformation codes and Bai & Ng (2002, ECTA) factor extraction via a compiled C++ (RcppArmadillo) backend.
 
 ## Overview
 
