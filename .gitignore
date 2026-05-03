@@ -13,9 +13,6 @@ src/*.o
 src/*.so
 src/*.dll
 
-# Data output
-data/
-
 # Credentials
 .Renviron
 
