@@ -30,7 +30,7 @@ Rcpp::sourceCpp("src/fred_factors.cpp")
 # ------------------------------------------
 
 # Read raw FRED MD dataset
-raw_fred_md <- read_csv("Data/FRED_MD_062024.csv")
+raw_fred_md <- read_csv("data/FRED_MD_062024.csv")
 
 # Extract columns names and transformation code
 col_names <- colnames(raw_fred_md)[-1]

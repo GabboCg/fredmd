@@ -1,17 +1,26 @@
-# Claude Code
+# Claude
 CLAUDE.md
 docs/
 
 # R
 .Rhistory
 .RData
-.Rproj.user/
-*.Rproj
+.Ruserdata
+.Rproj.user
 
 # Rcpp compiled artifacts
 src/*.o
 src/*.so
 src/*.dll
 
+# Data output
+data/
+
+# Credentials
+.Renviron
+
 # macOS
 .DS_Store
+
+# Jupyter
+*.ipynb
