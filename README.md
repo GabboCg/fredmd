@@ -1,5 +1,8 @@
 # FRED-MD Data Cleaning Pipeline
 
+[![R](https://img.shields.io/badge/R-%3E%3D4.1-276DC3?logo=r&logoColor=white)](https://www.r-project.org/)
+[![WRDS](https://img.shields.io/badge/Data-WRDS-003366)](https://wrds-www.wharton.upenn.edu/)
+
 An R pipeline for cleaning and processing the [FRED-MD](https://research.stlouisfed.org/econ/mccracken/fred-databases/) macroeconomic database. Implements McCracken & Ng (2016, JBES) transformation codes and Bai & Ng (2002, ECTA) factor extraction via a compiled C++ (RcppArmadillo) backend.
 
 ## Overview
