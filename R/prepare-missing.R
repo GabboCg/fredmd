@@ -56,7 +56,7 @@ transxf <- function(x, tcode = c("1", "2", "3", "4", "5", "6", "7")) {
   # OUTPUT:
   #     y_t = transformed series (as a column vector)
   # ---------------------------------------------------------------------------
-
+  
   y_t <- switch(tcode,
                 "1" = x,
                 "2" = x - lag(x, 1),
